@@ -4,9 +4,16 @@ import java.util.Scanner;
 public class ReversingText {
 
     public static String reverse(String text) {
-        // write your code here
-        // note that method does now print anything, it RETURNS the reversed string
-        return "";
+        int i = text.length() - 1; 
+        int j = 0; 
+        String test = "";
+        String next = "";
+        while (i >= 0) {
+            test = text.substring(i, i+1);
+            next = next + test; 
+            i--;
+        } 
+        return next; 
     }
 
     public static void main(String[] args) {
