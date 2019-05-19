@@ -2,10 +2,13 @@
 public class Least {
 
     public static int least(int number1, int number2) {
-        // write program code here
-        // do not print anything inside the method
-        // method needs a return in the end
-        return -1;
+        int total; 
+        if (number1 > number2) {
+            total = number2; 
+        } else {
+            total = number1;
+        }
+        return total;
     }
 
     public static void main(String[] args) {

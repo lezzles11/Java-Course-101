@@ -75,9 +75,9 @@ Trying to override old definition of task http://www.netbeans.org/ns/j2se-projec
 init:
 
 -deps-jar-init:
+   [delete] Deleting: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build/built-jar.properties
 
 deps-jar:
-    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build
 
 -warn-already-built-jar:
 [propertyfile] Updating property file: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build/built-jar.properties
@@ -89,7 +89,6 @@ deps-jar:
 -verify-automatic-build:
 
 -pre-pre-compile:
-    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build/classes
 
 -pre-compile:
 
@@ -98,12 +97,22 @@ deps-jar:
 -compile-depend:
 
 -do-compile:
-    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build/empty
-    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build/generated-sources/ap-source-output
-    [javac] Compiling 1 source file to /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/build/classes
-    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-    [javac] /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/src/Password.java:15: error: ';' expected
-    [javac]             System.out.println("The secret is: jryy!")
-    [javac]                                                       ^
-    [javac] 1 error
-    [javac] 1 warning
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

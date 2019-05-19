@@ -6,12 +6,16 @@ public class Password {
         Scanner reader = new Scanner(System.in);
         String password = "carrot"; // Use carrot as password when running tests.
 
-        System.out.println("Type the password: ");
-        String enter = reader.nextLine();
-        if (!(password.equals(enter))) {
+        while (true) {
+            System.out.println("Type the password: ");
+            String enter = reader.nextLine();
             System.out.println("Wrong!");
-        } else {
-            System.out.println("The secret is: jryy!")
+            if (enter.equals(password)) {
+                System.out.println("Right!\n");
+                break;
+            }
+        }
+            System.out.println("The secret is: jryy!");
         }
     }
-}
+
