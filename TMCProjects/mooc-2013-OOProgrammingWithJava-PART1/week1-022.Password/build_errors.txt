@@ -1,0 +1,6 @@
+
+BUILD FAILED
+/Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/nbproject/build-impl.xml:915: The following error occurred while executing this line:
+/Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week1-022.Password/nbproject/build-impl.xml:268: Compile failed; see the compiler error output for details.
+
+Total time: 4 seconds
