@@ -20,13 +20,16 @@ public class Palindromi {
     
     public static boolean palindrome(String text) {
         // write code here
+        boolean mothafuga; 
         String test = reverse(text); 
         if (test.equals(text)) {
-            return true; 
+            mothafuga = true; 
         } else {
-            return false; 
+            mothafuga = false; 
         }
+        return mothafuga; 
     }
+    
 
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
