@@ -4,7 +4,14 @@ public class LengthsOfStrings {
     public static ArrayList<Integer> lengths(ArrayList<String> list) {
         ArrayList<Integer> lengthList = new ArrayList<Integer>();
         // write code here
-        
+        // for each added word, calculate the length 
+        // return the list  
+        int word2;
+        int word1;
+        for (String word : list) {
+            word1 = word.length();
+            lengthList.add(word1);   
+        }
         return lengthList;
     }
 
