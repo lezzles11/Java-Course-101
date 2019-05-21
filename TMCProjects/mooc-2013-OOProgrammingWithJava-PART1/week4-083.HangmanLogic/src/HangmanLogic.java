@@ -24,22 +24,39 @@ public class HangmanLogic {
     }
 
     public void guessLetter(String letter) {
-        // program here the functionality for making a guess
-
-        // if the letter has already been guessed, nothing happens
-
-        // it the word does not contains the guessed letter, number of faults increase
-        // the letter is added among the already guessed letters
+        if (guessedLetters.contains(letter)) {
+            System.out.println();
+        } else if (word.contains(letter)) {
+            guessedLetters+= letter; 
+        } else {
+            numberOfFaults++;
+            guessedLetters = guessedLetters + letter; 
+        }
     }
 
     public String hiddenWord() {
-        // program here the functionality for building the hidden word
+        String hiddenWord = "";
+        int i = 0; 
+        String guessLetter = "";
+        while (i < this.word.length()) {
+            char guess = this.word.charAt(i);
+            guessLetter = Character.toString(guess);
+            if (this.guessedLetters.contains(guessLetter)) {
+                hiddenWord = hiddenWord + guessLetter; 
+            } else {
+                hiddenWord = hiddenWord + "_";
+            }
+            i++; 
+        }
+        return hiddenWord; 
+            }
+        }
+// program here the functionality for building the hidden word
 
         // create the hidden word by interating through this.word letter by letter
         // if the letter in turn is within the guessed words, put it in to the hidden word
         // if the letter is not among guessed, replace it with _ in the hidden word 
 
         // return the hidden word at the end
-        return "";
-    }
-}
+    
+
