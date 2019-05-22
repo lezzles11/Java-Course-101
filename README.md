@@ -8,35 +8,51 @@
   <div class="container">
   <div class="row">
     <div class="col-6">
-      <h2>  30 Day Project </h2> 
-    <p> Testing <p>
       <table class="table table-dark">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Completed?</th>
+      <th scope="col">Week</th>
+      <th scope="col">Things that were easy</th>
+      <th scope="col">Things to review</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row">Yep!</th>
+      <td>1</td>
+      <td>Mostly easy</td>
+      <td>N/A</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row">Yep!</th>
+      <td>2</td>
+      <td>Mostly easy</td>
+      <td>N/A</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="row">Yep!</th>
+      <td>3</td>
+      <td></td>
+      <td></td>
+    </tr>
+     <tr>
+      <th scope="row">Yep!</th>
+      <td>4</td>
+      <td></td>
+      <td>Question 92 and 93</td>
+    </tr>
+    <tr>
+      <th scope="row">Yep!</th>
+      <td>5</td>
+      <td>Started writing down the problems out by hand (this seemed to really help) </td>
+      <td>Question 92 and 93 - especially in regards to 92!</td>
+    </tr>
+    <tr>
+      <th scope="row">Yep!</th>
+      <td>6</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
