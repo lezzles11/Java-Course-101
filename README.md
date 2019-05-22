@@ -40,7 +40,7 @@
       <th scope="row">Yep!</th>
       <td>4</td>
       <td></td>
-      <td>Question 92 and 93</td>
+      <td>Struggled with the random function - need to come back to this</td>
     </tr>
     <tr>
       <th scope="row">Yep!</th>
