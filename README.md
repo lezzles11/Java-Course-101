@@ -8,8 +8,6 @@
   <div class="container">
   <div class="row">
     <div class="col-6">
-      <h2>  30 Day Project </h2> 
-    <p> Testing <p>
       <table class="table table-dark">
   <thead>
     <tr>
