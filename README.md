@@ -19,31 +19,31 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Yep!</th>
+      <th scope="row">X</th>
       <td>1</td>
       <td>Mostly easy</td>
       <td>N/A</td>
     </tr>
     <tr>
-      <th scope="row">Yep!</th>
+      <th scope="row">X</th>
       <td>2</td>
       <td>Mostly easy</td>
       <td>N/A</td>
     </tr>
     <tr>
-      <th scope="row">Yep!</th>
+      <th scope="row">X</th>
       <td>3</td>
       <td></td>
       <td></td>
     </tr>
      <tr>
-      <th scope="row">Yep!</th>
+      <th scope="row">X</th>
       <td>4</td>
       <td></td>
       <td>Struggled with the random function - need to come back to this</td>
     </tr>
     <tr>
-      <th scope="row">Yep!</th>
+      <th scope="row">X</th>
       <td>5</td>
       <td>Started writing down the problems out by hand (this seemed to really help) </td>
       <td>Question 92 and 93 - especially in regards to 92!</td>
