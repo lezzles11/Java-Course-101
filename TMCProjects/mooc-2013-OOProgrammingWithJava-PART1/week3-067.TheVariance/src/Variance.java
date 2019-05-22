@@ -12,22 +12,21 @@ public class Variance {
 
     // Copy here average from exercise 64 
     public static double average(ArrayList<Integer> list) {
-        int sum = sum(list); 
-        return (double) sum / list.size(); 
+        return (sum(list) * 1.0) / list.size(); 
     }
 
 
     public static double variance(ArrayList<Integer> list) {
         // write code here
-        double total = 0.0; 
-        double length = 0; 
-        for (double num : list) {
-            length++; 
-            double numSubtract = num - average(list);
-            double squared = Math.pow(numSubtract, 2);
-            total = total + squared; 
+        double var = 0; 
+        double total = 0; 
+        double average = average(list); 
+        for (int num : list) {
+            var = Math.pow((num * 1.0 - average), 2);
+            total += var;
         }
-        return total / length;
+        total = total / (list.size() - 1);
+        return total; 
     }
     
     public static void main(String[] args) {
