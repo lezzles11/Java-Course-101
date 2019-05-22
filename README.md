@@ -52,7 +52,7 @@
       <th scope="row">Yep!</th>
       <td>6</td>
       <td></td>
-      <td>Question 100 - again, need to review random</td>
+      <td>Question 100 & 101 - again, need to review random</td>
     </tr>
   </tbody>
 </table>
