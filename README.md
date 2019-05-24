@@ -5,7 +5,7 @@
   <body>
   <h1> Java Course: Object Oriented Programming</h1>
   <h3> Part 1 </h3>
-  <h4> March - May </h4>
+  <h4> March 2019 - May 2019 </h4>
   
   <div class="container">
   <div class="row">
