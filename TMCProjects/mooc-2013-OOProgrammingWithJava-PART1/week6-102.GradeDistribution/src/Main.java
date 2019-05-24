@@ -3,11 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        System.out.println("Type exam scores, -1 completes: ");
-        Average average = new Average(); 
-        average.sum(reader); 
-        average.starList(); 
-        System.out.println("Acceptance percentage: " + average.acceptance());
+        System.out.println(why wont it compile?);
         
         // implement your program here
         // do not put all to one method/class but rather design a proper structure to your program
