@@ -49,7 +49,7 @@
       <td> </td>
     </tr>
     <tr>
-      <th scope="row">Yep!</th>
+      <th scope="row">X</th>
       <td>6</td>
       <td>Creating own programs from scratch - how do you structure programs in Java? </td>
       <td></td>
