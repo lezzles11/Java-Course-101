@@ -21,13 +21,13 @@
     <tr>
       <th scope="row">X</th>
       <td>1</td>
-      <td>Mostly easy</td>
+      <td>N/A</td>
       <td>N/A</td>
     </tr>
     <tr>
       <th scope="row">X</th>
       <td>2</td>
-      <td>Mostly easy</td>
+      <td>N/A</td>
       <td>N/A</td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@
     <tr>
       <th scope="row">Yep!</th>
       <td>6</td>
-      <td>Question 100 & 101 - again, need to review random</td>
+      <td>Creating own programs from scratch - how do you structure programs in Java? </td>
       <td></td>
     </tr>
   </tbody>
