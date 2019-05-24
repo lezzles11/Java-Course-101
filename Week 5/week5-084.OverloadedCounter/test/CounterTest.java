@@ -1,4 +1,4 @@
-ccimport fi.helsinki.cs.tmc.edutestutils.Points;
+import fi.helsinki.cs.tmc.edutestutils.Points;
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;

@@ -42,9 +42,9 @@
 init:
 
 -deps-jar-init:
-   [delete] Deleting: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/built-jar.properties
 
 deps-jar:
+    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build
 
 -warn-already-built-jar:
 [propertyfile] Updating property file: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/built-jar.properties
@@ -56,6 +56,7 @@ deps-jar:
 -verify-automatic-build:
 
 -pre-pre-compile:
+    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/classes
 
 -pre-compile:
 
@@ -64,12 +65,19 @@ deps-jar:
 -compile-depend:
 
 -do-compile:
+    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/empty
+    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/generated-sources/ap-source-output
+    [javac] Compiling 2 source files to /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] 1 warning
+     [copy] Copying 1 file to /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/classes
 
 -post-compile:
 
 compile:
 
 -pre-pre-compile-test:
+    [mkdir] Created dir: /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/test/classes
 
 -pre-compile-test:
 
@@ -78,8 +86,14 @@ compile:
 -do-compile-test:
     [javac] Compiling 4 source files to /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/test/classes
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-    [javac] /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/test/CounterTest.java:1: error: class, interface, or enum expected
-    [javac] ccimport fi.helsinki.cs.tmc.edutestutils.Points;
-    [javac] ^
-    [javac] 1 error
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
     [javac] 1 warning
+     [copy] Copying 1 file to /Users/lesleycheung/Desktop/here/MOOC-Fi/TMCProjects/mooc-2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/build/test/classes
+
+-post-compile-test:
+
+compile-test:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
