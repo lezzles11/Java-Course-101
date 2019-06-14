@@ -4,6 +4,8 @@
   
   <body>
   <h1> Java Course: Object Oriented Programming</h1>
+  <h3> Part 1 </h3>
+  <h4> March 2019 - May 2019 </h4>
   
   <div class="container">
   <div class="row">
@@ -33,26 +35,26 @@
     <tr>
       <th scope="row">X</th>
       <td>3</td>
-      <td></td>
-      <td></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
      <tr>
       <th scope="row">X</th>
       <td>4</td>
       <td>Struggled with the random function - need to come back to this</td>
-<td></td>
+<td>X</td>
     </tr>
     <tr>
       <th scope="row">X</th>
       <td>5</td>
       <td>Question 92 and 93 - especially in regards to 92!</td>
-      <td> </td>
+      <td>X </td>
     </tr>
     <tr>
       <th scope="row">X</th>
       <td>6</td>
       <td>Creating own programs from scratch - how do you structure programs in Java? </td>
-      <td></td>
+      <td>X (took MIT course on computer structures) </td>
     </tr>
   </tbody>
 </table>
